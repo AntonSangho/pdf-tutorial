@@ -2,7 +2,8 @@ import opendataloader_pdf
 
 opendataloader_pdf.convert(
     #input_path=["samples/lorem.pdf"],
-    input_path=["samples/Beginning+STM32.pdf"],
+    input_path=["samples/The_Art_of_Electronics_3rd.pdf"],
+    #input_path=["samples/Beginning+STM32.pdf"],
     output_dir="output/",
     format="markdown,json"
 )
